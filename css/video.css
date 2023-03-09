@@ -1,0 +1,251 @@
+.liveTv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #171717;
+}
+.liveTv p {
+    margin: 0;
+}
+.liveTv-info {
+    padding: 0 20px;
+}
+.liveTv-info_title {
+    padding: 5px;
+    background-color: #000;
+}
+.liveTv-info_title,
+.liveTv-timeEnd,
+.liveTv-info_odds{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+.liveTv-timeEnd,
+.odds-number {
+    color: #ffcc00;
+}
+.liveTv-timeEnd span {
+    color: #fff;
+    padding: 4px 6px;
+    border-radius: 6px;
+    margin-left: 5px;
+    background-color: #444;
+}
+.liveTv-info_desc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top:1px solid #595454 ;
+}
+.liveTv-info_odds {
+    border-right:1px solid #595454 ;
+    padding: 5px;
+}
+.liveTv-info_up {
+    color: #ffcc00;
+    background-color: #444;
+    border-top:1px solid #595454;
+    padding: 5px;
+    font-size: 13px;
+}
+.liveTv-info_result {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top:1px solid #595454 ;
+    border-bottom:1px solid #595454 ;
+}
+.liveTv-info_odds:last-child {
+    border: none;
+}
+
+/* .liveTv-tabs  */
+
+.tabss {
+  margin: 0 auto;
+    width: 100%;
+}
+
+.tabss > input[type="radio"] {
+  display: none;
+}
+
+.tabss > div {
+  display: none;
+  padding: 0px;
+  font-size: 16px;
+}
+.tabss .container-table {
+    padding: 0;
+}
+
+#tab-btn-1:checked ~ #content-1,
+#tab-btn-2:checked ~ #content-2,
+#tab-btn-3:checked ~ #content-3 {
+  display: block;
+}
+
+.tabss > label {
+  display: inline-flex;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: #262626;
+  padding: 5px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 205px;
+  justify-content: center;
+}
+
+.tabss > label:not(:first-of-type) {
+  border-left: none;
+}
+
+.tabss > input[type="radio"]:checked + label {
+  background-color: #ffcc00;
+  color: #000;
+  border-bottom: 1px solid #fff;
+}
+
+#numbers3,
+#numbers4,
+#numbers5,
+#numbers6
+ {
+	padding: 0;
+	margin: 0 2rem;
+	list-style-type: none;
+	display: flex;
+}
+
+#numbers3 li a ,
+#numbers6 li a ,
+#numbers5 li a ,
+#numbers4 li a{
+	color: #fff;
+	padding: 3px 6px;
+	text-decoration: none;
+	opacity: .7;
+}
+
+#numbers3 li a:hover,
+#numbers5 li a:hover,
+#numbers6 li a:hover,
+#numbers4 li a:hover {
+	opacity: 1;
+}
+
+#numbers3 li a.active,
+#numbers6 li a.active,
+#numbers5 li a.active,
+#numbers4 li a.active {
+	opacity: 1;
+	background: #ffcc00;
+	color: #333;
+	border-radius: 6px;
+}
+
+#my-table3 ,
+#my-table4 ,
+#my-table4_m ,
+#my-table3_m {
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+}
+
+#my-table3 tr span,
+#my-table3_m tr span,
+#my-table4 tr span, 
+#my-table4_m tr span 
+{
+    color : #ffcc00;
+}
+#my-table3 .flextabs input,
+#my-table3_m .flextabs input,
+#my-table4 .flextabs input,
+#my-table4_m .flextabs input {
+    width: 15px;
+    height: 15px;
+}
+.flextabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flextabstd {
+    color: #ffcc00;
+}
+.flextabstd p:last-child {
+    color: #fff;
+}
+.tabss-button {
+    width:70px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid #595454;
+    padding: 5px 0;
+}
+.button-success {
+    color: #0085ed;
+}
+.button-error {
+    color: #f10000;
+}
+.button-disable {
+    color: #666;
+}
+.table3-m {
+    display: none;
+}
+#my-table3_m thead tr th:first-child ,
+#my-table4_m thead tr th:first-child{
+    width: 17% ;
+}
+
+@media screen and (max-width: 1505px){
+    .liveTv-info_result {
+    grid-template-columns: repeat(1, 1fr);
+}
+.liveTv-info_desc {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border-top:1px solid #595454 ;
+}
+.liveTv-info_result .liveTv-info_odds:last-child ,
+.liveTv-info_desc .liveTv-info_odds:last-child ,
+.liveTv-info_desc .liveTv-info_odds:nth-child(2) {
+    border-top:1px solid #595454 ;
+}
+.liveTv-info_odds {
+    border-right: none;
+}
+.liveTv video {
+    height: 280px !important;
+}
+.table3-w {
+    display: none;
+}
+.table3-m {
+    display: block;
+}
+}
+@media screen and (max-width: 992px){
+    .liveTv {
+    grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width: 576px){
+    .liveTv video{
+        height: 230px !important;
+    }
+    .tabss > label {
+        width: 45% !important;
+    }
+}

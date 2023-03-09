@@ -471,7 +471,7 @@ table {
 td,
 th {
 	text-align: left;
-	padding: .5rem 1rem;
+	padding: 5px 8px;
 	border: 1px solid #fff;
 	text-align: center;
 }
@@ -763,6 +763,7 @@ th {
 	border: none;
 	outline: unset;
 }
+
 
 @media (min-width: 576px) {
 
