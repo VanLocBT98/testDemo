@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 body {
     font-family: "NanumGothic";
     background-color: #000 !important;
+}
+.diflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.colorPrimary {
+    color: #ffcc00;
+}
+.color-blue {
+    color:#0085ed !important;
+}
+.color-red {
+    color: #f10000 !important;
 }
 
 h1,
@@ -18,6 +33,33 @@ a:focus,
 a:active {
     text-decoration: none;
     outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #fff;
+    background-color: #171717;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 5px 8px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+.pagination {
+    background-color: #171717;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+th {
+    background: #272727;
+    color: #fff;
 }
 
 ul {
@@ -614,7 +656,21 @@ img {
 .header-bottom_mobile {
     display: none;
 }
-
+.site-wrapper {
+    padding-top: 150px;
+}
+.section-title {
+    width: 100%;
+    background-color: #171717;
+    padding: 10px 20px;
+    color: #ffcc00;
+    font-size: 22px;
+}
+@media screen and (max-width: 1180px) {
+    .site-wrapper {
+        padding-top: 170px;
+    }
+}
 @media screen and (max-width: 1680px) {
     #cssmenu ul li {
         padding: 0;

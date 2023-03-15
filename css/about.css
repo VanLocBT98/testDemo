@@ -1,0 +1,86 @@
+.section-wrapper {
+    padding-top: 150px;
+    color: #fff;
+}
+
+.section-wrapper ul {
+    background: #434343;
+    justify-content: center;
+    border: none !important;
+    font-size: 14px;
+}
+
+.section-wrapper ul li a {
+    border: none !important;
+    height: 100% !important;
+    color: #fff;
+}
+
+.section-wrapper ul li .active {
+    background: #2e2e2e !important;
+    color: #ffcc00 !important;
+}
+
+.section-wrapper ul li a .material-icons {
+    margin: 0;
+    font-size: 15px;
+}
+
+.section-wrapper .tab-pane {
+    padding: 20px;
+}
+
+.tabs-about {
+    background: #171717;
+}
+
+.tab-content .desc-tabs {
+    padding: 10px;
+    margin: 15px 0;
+    background: #262626;
+    border-radius: 8px;
+}
+
+.tab-content .desc-tabs p {
+    font-size: 14px;
+}
+
+.tab-content .desc-tabs p:last-child {
+    padding: 20px 0;
+}
+
+.section-wrapper .tab-pane .title {
+    padding: 0px 0px 10px;
+    width: 100%;
+    border-bottom: .5px solid #6e6b6b;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1180px) {
+    .section-wrapper {
+        padding-top: 170px;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .container {
+        max-width: 100% !important;
+    }
+
+    .section-wrapper ul {
+        font-size: 10px;
+    }
+
+    .section-wrapper ul li a .material-icons {
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .tab-content .desc-tabs p:last-child {
+        padding: 10px 0;
+    }
+
+    .tab-content .desc-tabs p {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid #fff;
+    background-color: #171717;
+}
+.button-group {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px 0 0;
+}
+.button-group button {
+    font-size: 13px;
+    padding: 5px 10px;
+    background: #434343;
+    color: #fff;
+}
+.button-group button:last-child {
+    margin-left: 10px;
+}

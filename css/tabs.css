@@ -111,9 +111,6 @@ a img {
 	border: 0;
 }
 
-.site-wrapper {
-	padding-top: 150px;
-}
 
 .entry-content>*:not(:last-child) {
 	margin-bottom: 1rem;
@@ -462,35 +459,9 @@ a img {
 }
 
 /* Table styles. */
-table {
-	border-collapse: collapse;
-	border: 1px solid #fff;
-	background-color: #171717;
-}
 
-td,
-th {
-	text-align: left;
-	padding: 5px 8px;
-	border: 1px solid #fff;
-	text-align: center;
-}
-
-
-th {
-	background: #272727;
-	color: #fff;
-}
 
 /* Pagination. */
-.pagination {
-	background-color: #171717;
-	padding: 1rem;
-	margin: 1rem 0;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-}
 
 #numbers {
 	padding: 0;

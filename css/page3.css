@@ -1,0 +1,138 @@
+
+.card {
+	border-radius: 6px;
+	box-shadow: 2px 3px 23px rgba(0, 0, 0, 0.3);
+	    background-color: #171717 !important;
+	padding: 1em 0em;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	transition: 0.2s;
+	font-size: 12px;
+}
+
+.card ul {
+	background-color: transparent;
+}
+h1 {
+	margin: 20px auto;
+	color: white;
+}
+.itsMe {
+  position:absolute;
+  bottom:10px;
+  right:14px;
+  display:block;
+	background-color:rgba(255, 255, 255, 0.5);
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.1);
+  padding: 6px 12px;
+	color: rgba(0, 0, 0, 0.9);
+  text-decoration:none;
+}
+.itsMe:hover {
+  color: rgba(0, 0, 0, 1);
+  background-color:rgba(255, 255, 255, 1);
+}
+h3,
+span {
+	color: #666;
+}
+
+h3 {
+	font-size: 14px;
+	line-height: normal;
+	margin: 4px 0 0 0;
+	color: #666;
+}
+
+span {
+	font-size: 12px;
+}
+
+hr {
+	border-color: #fff;
+	background-color: #fff;
+}
+
+.advusorListCUrl {
+	overflow: hidden;
+	display: grid !important;
+        grid-template-columns: repeat(3, 1fr);
+		gap: 5px;
+}
+
+
+.advusorListCUrl li {
+	margin: 5px 0;
+}
+
+.advusorListCUrl img {
+	width: 100%;
+}
+
+#page_navigation {
+	clear: both;
+	margin: 10px auto;
+
+}
+
+#page_navigation a {
+	padding: 3px;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+	margin: 2px;
+	color: black;
+	text-decoration: none;
+	background-color: #fff;
+	border-radius: 3px;
+	padding: 4px 8px
+}
+
+.previous_link,
+.next_link {
+	font-weight: bold;
+	background: transparent !important;
+	color: #fff !important;
+}
+.previous_link:hover,
+.next_link:hover{
+	background: #ffcc00 !important ;
+	color: #000 !important;
+} 
+.page_link {
+	background: transparent !important;
+	color: #fff !important;
+}
+
+.page_link.active_page {
+	background: #ffcc00 !important;
+	color: #000 !important;
+}
+
+.event-desc {
+	background: #434343;
+	padding: 5px 10px;
+}
+
+.event-desc p {
+	margin-bottom: 0 !important;
+	color: #fff;
+}
+.event-button {
+	background-color: #000;
+	color: #fff;
+	border-radius: 20px;
+	padding: 5px 10px;
+}
+
+@media screen and (max-width: 992px){
+.advusorListCUrl {
+        grid-template-columns: repeat(2, 1fr);
+}
+}
+@media screen and (max-width: 576px){
+.advusorListCUrl {
+        grid-template-columns: repeat(1, 1fr);
+}
+}

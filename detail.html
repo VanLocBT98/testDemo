@@ -1,0 +1,837 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Detail</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/video.css">
+    <!-- <link rel="stylesheet" href="./css/tabs.css"> -->
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/detail.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+        <div class="header-top">
+            <div class="row header-top_info">
+                <div class="right_info">
+                    <i class="fa fa-clock"></i>
+                    <p id="currtime"></p>
+                </div>
+                <div class="left_info">
+                    <ul>
+                        <li>마이페이지</li>
+                        <li>출석체크</li>
+                        <li>공지사항</li>
+                        <li>이벤트</li>
+                        <li>베팅규정</li>
+                        <li>자주묻는질문</li>
+                        <li>고객센터</li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    
+        <div class="header-main">
+            <nav id='cssmenu'>
+                <div class="button" style="display: none;"></div>
+    
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./assets/w메인페이지 (1).jpg">
+                    </a>
+                </div>
+                <div id="head-mobile"></div>
+                <ul class="ul-cssmenu">
+                    <li ><a href='./index.html'>유럽형스포츠</a></li>
+                    <li><a href='./about.html'>국내형스포츠</a>
+                        <!-- <ul>
+                                <li><a href='#'>Services 1</a></li>
+                                <li><a href='#'>Services 2</a>
+                                    <ul>
+                                        <li><a href='#'>Services 21</a></li>
+                                    </ul>
+                                </li>
+    
+                                <li><a href='#'>Services 3</a></li>
+                                <li><a href='#'>Services 4</a></li>
+                            </ul> -->
+                    </li>
+                    <li  class='active'><a href='#'>실시간스포츠</a></li>
+                    <li><a href='./page3.html'>카지노</a></li>
+                    <li><a href='./page4.html'>미니게임</a></li>
+                    <li><a href='./page5.html'>슬롯게임</a></li>
+                    <li><a href='./page6.html'>가상스포츠</a></li>
+                    <li><a href='./page7.html'>토큰게임</a></li>
+                </ul>
+                <div class="header-main_left">
+                    <div class="header-main_info">
+                        아이디
+                    </div>
+                    <div class="header-main_info">
+                        비밀번호
+                    </div>
+                    <buton class="header-main_button1 header-main_button">
+                        로그인
+                    </buton>
+                    <button class="header-main_button2 header-main_button">
+                        회원가입
+                    </button>
+                </div>
+                <div class="header-main_left-mobile">
+                    <i class="fa fa-user-circle"></i>
+                    <p>User name</p>
+                </div>
+            </nav>
+        </div>
+        <div class="header-bottom_mobile bottom-info">
+            <ul class="ul-cssmenu">
+                <li><a href='#'><i class="fa fa-envelope"></i> 유럽형스포츠</a></li>
+                <li><a href='#'><i class="fa fa-envelope"></i><span class="span-bottom">1398294</span> </a></li>
+                <li><a href='#'><i class="fa fa-envelope"></i> 10000000</a></li>
+                <li><a href='#'><i class="fa fa-envelope"></i> 1234567</a></li>
+                <li><a href='#'><i class="fa fa-envelope"></i> 1324354</a></li>
+            </ul>
+        </div>
+        <div class="header-bottom_mobile">
+            <ul class="ul-cssmenu">
+                <li ><a href='./index.html'>유럽형스포츠</a></li>
+                <li><a href='./about.html'>국내형스포츠</a>
+                    <!-- <ul>
+                                <li><a href='#'>Services 1</a></li>
+                                <li><a href='#'>Services 2</a>
+                                    <ul>
+                                        <li><a href='#'>Services 21</a></li>
+                                    </ul>
+                                </li>
+    
+                                <li><a href='#'>Services 3</a></li>
+                                <li><a href='#'>Services 4</a></li>
+                            </ul> -->
+                </li>
+                <li class='active'><a href='#'>실시간스포츠</a></li>
+            <li><a href='./page3.html'>카지노</a></li>
+            <li><a href='./page4.html'>미니게임</a></li>
+            <li><a href='./page5.html'>슬롯게임</a></li>
+            <li><a href='./page6.html'>가상스포츠</a></li>
+            <li><a href='./page7.html'>토큰게임</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="container section-wrapper">
+        <div class="tabs-about">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#tabs-2" role="tab"><span
+                            class="material-icons tab-icon">sports_soccer</span>스포츠</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab"><span
+                            class="material-icons tab-icon">sports_basketball</span>실시간스포츠</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tabs-4" role="tab"><span
+                            class="material-icons tab-icon">sports_basketball</span>카지노</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tabs-5" role="tab"><span
+                            class="material-icons tab-icon">sports_basketball</span>미니게임</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tabs-6" role="tab">
+                        <span class="material-icons tab-icon">sports_basketball</span>슬롯게임
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tabs-7" role="tab">
+                        <span class="material-icons tab-icon">sports_basketball</span>가상스포츠
+                    </a>
+                </li>
+            </ul><!-- Tab panes -->
+            <div class="button-group">
+                <button>선택삭제</button>
+                <button>전체삭제</button>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane active" id="tabs-2" role="tabpanel">
+                <div class="container-table">
+                    <div class="table3-w">
+                        <table id="my-table4">
+                            <thead>
+                                <tr>
+                                    <th class="flextabs"><input type="checkbox" /></th>
+                                    <th>베팅시간</th>
+                                    <th>게임사 종목</th>
+                                    <th>타입</th>
+                                    <th>베팅항목</th>
+                                    <th>베팅금</th>
+                                    <th>예상당첨금</th>
+                                    <th>당첨금</th>
+                                    <th>배당</th>
+                                    <th>상태</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-blue">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-red">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-blue">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-red">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-blue">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-red">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-blue">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-red">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-blue">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-red">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-blue">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-red">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-blue">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-red">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-blue">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-red">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-blue">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-red">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-blue">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-red">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-blue">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-red">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-blue">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-red">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-blue">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                        </div>
+                                    </td>
+                                    <td>12-07 (수) 21:04:30</td>
+                                    <td>파워볼 - 270 차</td>
+                                    <td class="colorPrimary">일반볼합 홀짝</td>
+                                    <td>일반볼합 <span class="color-red">홀</span></td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배</td>
+                                    <td><button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        <div class="pagination">
+                            <ol id="numbers5"></ol>
+                        </div>
+                    </div>
+                
+                    <div class="table3-m">
+                        <table id="my-table4_m">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <div class="flextabs">
+                                            <input type="checkbox" />베팅시간
+                                        </div>
+                                    </th>
+                                    <th>게임사 종목 /타입</th>
+                                    <th>베팅항목/베팅금</th>
+                                    <th>예상당첨금<br />당첨금</th>
+                                    <th>배당<br />상태</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                            12-07 (수) 21:04:30
+                                        </div>
+                                    </td>
+                                    <td>파워볼 - 270 차 <br/><span>일반볼합 홀짝</span></td>
+                                    <td>일반볼합 <span class="color-blue">홀</span><br/>1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배 <br/>  <button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                            12-07 (수) 21:04:30
+                                        </div>
+                                    </td>
+                                    <td>파워볼 - 270 차 <br /><span>일반볼합 홀짝</span></td>
+                                    <td>일반볼합 <span class="color-blue">홀</span><br />1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배 <br /> <button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                            12-07 (수) 21:04:30
+                                        </div>
+                                    </td>
+                                    <td>파워볼 - 270 차 <br /><span>일반볼합 홀짝</span></td>
+                                    <td>일반볼합 <span class="color-blue">홀</span><br />1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배 <br /> <button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                            12-07 (수) 21:04:30
+                                        </div>
+                                    </td>
+                                    <td>파워볼 - 270 차 <br /><span>일반볼합 홀짝</span></td>
+                                    <td>일반볼합 <span class="color-blue">홀</span><br />1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배 <br /> <button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                            12-07 (수) 21:04:30
+                                        </div>
+                                    </td>
+                                    <td>파워볼 - 270 차 <br /><span>일반볼합 홀짝</span></td>
+                                    <td>일반볼합 <span class="color-blue">홀</span><br />1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배 <br /> <button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                            12-07 (수) 21:04:30
+                                        </div>
+                                    </td>
+                                    <td>파워볼 - 270 차 <br /><span>일반볼합 홀짝</span></td>
+                                    <td>일반볼합 <span class="color-blue">홀</span><br />1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배 <br /> <button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                            12-07 (수) 21:04:30
+                                        </div>
+                                    </td>
+                                    <td>파워볼 - 270 차 <br /><span>일반볼합 홀짝</span></td>
+                                    <td>일반볼합 <span class="color-blue">홀</span><br />1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배 <br /> <button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                            12-07 (수) 21:04:30
+                                        </div>
+                                    </td>
+                                    <td>파워볼 - 270 차 <br /><span>일반볼합 홀짝</span></td>
+                                    <td>일반볼합 <span class="color-blue">홀</span><br />1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배 <br /> <button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                            12-07 (수) 21:04:30
+                                        </div>
+                                    </td>
+                                    <td>파워볼 - 270 차 <br /><span>일반볼합 홀짝</span></td>
+                                    <td>일반볼합 <span class="color-blue">홀</span><br />1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배 <br /> <button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                            12-07 (수) 21:04:30
+                                        </div>
+                                    </td>
+                                    <td>파워볼 - 270 차 <br /><span>일반볼합 홀짝</span></td>
+                                    <td>일반볼합 <span class="color-blue">홀</span><br />1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배 <br /> <button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                            12-07 (수) 21:04:30
+                                        </div>
+                                    </td>
+                                    <td>파워볼 - 270 차 <br /><span>일반볼합 홀짝</span></td>
+                                    <td>일반볼합 <span class="color-blue">홀</span><br />1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배 <br /> <button class="tabss-button button-success">적중</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class=" flextabstd">
+                                        <div class="flextabs">
+                                            <input type="checkbox" />
+                                            12-07 (수) 21:04:30
+                                        </div>
+                                    </td>
+                                    <td>파워볼 - 270 차 <br /><span>일반볼합 홀짝</span></td>
+                                    <td>일반볼합 <span class="color-blue">홀</span><br />1,020,000</td>
+                                    <td>1,020,000</td>
+                                    <td>1.85 배 <br /> <button class="tabss-button button-error">적중</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="pagination">
+                            <ol id="numbers6"></ol>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="tab-pane" id="tabs-3" role="tabpanel">
+                축구 베팅 기록과 유사
+                </div>
+                <div class="tab-pane" id="tabs-4" role="tabpanel">
+                축구 베팅 기록과 유사
+    
+                </div>
+                <div class="tab-pane" id="tabs-5" role="tabpanel">
+                축구 베팅 기록과 유사
+                </div>
+                <div class="tab-pane" id="tabs-6" role="tabpanel">
+                    축구 베팅 기록과 유사
+                </div>
+                <div class="tab-pane" id="tabs-7" role="tabpanel">
+                축구 베팅 기록과 유사
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src='./js/index.js'></script>
+    <script src='./js/tabs.js'></script>
+  </body>
+</html>
