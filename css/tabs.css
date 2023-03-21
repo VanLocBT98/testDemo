@@ -193,6 +193,7 @@ a img {
 	padding: 10px 1.5rem;
 	transition: all 0.2s ease-in-out;
 	word-wrap: break-word;
+	font-size: 14px;
 }
 
 .tabs>ul li a:hover,

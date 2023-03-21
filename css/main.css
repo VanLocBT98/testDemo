@@ -1,0 +1,215 @@
+.container {
+    max-width: 80% !important;
+}
+.site-wrapper {
+    color: #fff;
+}
+p {
+    margin-bottom: 0 !important;
+    line-height: 42px;
+}
+.main-header {
+    background: #1e1e1e;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 8%;
+}
+.main-header_desc {
+    color: #9d9d9d;
+    line-height: 30px;
+}
+.main-header_desc p {
+    padding-top: 20px;
+    color: #fff;
+}
+.main-header_image {
+    width: 300px;
+}
+.main-header_itemGame,
+.main-header_infoGame {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-top: 20px;
+}
+.main-header_infoGame {
+    gap: 15px;
+}
+.main-header_itemGame img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.main-header_infoGame {
+    margin: 20px 0;
+}
+.main-header_infoGame-item {
+    border-radius: 8px;
+}
+.infoGame-item_title {
+    background: #1a1a1a;
+    padding: 10px 15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.more {
+    font-size: 11px;
+    cursor: pointer;
+    line-height: 42px;
+}
+.main-header_infoGame-item ul {
+    margin-bottom: 0;
+    color: #9d9d9d;
+    font-size: 11px;
+    background: #262626;
+    padding: 15px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.main-header-tabContent ul {
+    padding: 15px;
+}
+.tab-infoGame {
+    margin: 20px 0;
+    display: none;
+}
+.nav-tabs .nav-link {
+    border: unset !important;
+}
+.tab-infoGame .tabs-about .nav-tabs {
+    padding: 0;
+    background: #262626;
+    text-align: center;
+}
+.tab-infoGame .tabs-about .nav-tabs li .active {
+    color: #fff !important;
+    background: #9d9d9d !important;
+    border-color: transparent !important;
+}
+.main-header-tabContent {
+    font-size: 12px;
+}
+
+.tab-infoGame .tabs-about .nav {
+    display: grid !important;
+    grid-template-columns: repeat(4,1fr);
+}
+.main-header_infoGame-item ul li {
+}
+.main-header_infoGame-item ul li:hover,
+.infoGame-item_title:hover {
+    cursor: pointer;
+    color: #ffcc00;
+}
+.section-image {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.main-footer {
+    text-align: center;
+    color: #9d9d9d;
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.main-footer p {
+    line-height: 24px !important;
+}
+
+.main-footer p span {
+    cursor: pointer;
+}
+
+.image-footer {
+    display: flex;
+    justify-content: center;
+}
+.main-footer img {
+    max-width: 200px;
+}
+.image-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1180px) {
+    .infoGame-item_title p:first-child {
+            font-size: 12px !important;
+        }
+    
+        .main-header_infoGame-item ul li p {
+            font-size: 8px;
+        }
+}
+
+@media screen and (max-width: 992px) {
+    .main-header_image {
+        width: 200px;
+    }
+    .main-header_desc {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .main-header_desc p {
+        position: relative;
+        width: 200%;
+        padding-top: 0;
+        z-index: 20;
+    }
+    .main-header_infoGame {
+        display: none;
+    }
+    .tab-infoGame {
+        display: block;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .image-destop {
+        display: none;
+    }
+    .image-mobile {
+        display: block;
+    }
+}
+@media screen and (max-width: 675px) {
+    .container {
+        max-width: 100% !important;
+    }
+    .main-header_image {
+        width: 200px;
+    }
+
+    .main-header_desc {
+        font-size: 8px;
+        line-height: 20px;
+    }
+
+    .main-header_desc p {
+        width: 200%;
+        padding-top: 0;
+    }
+        .main-header_itemGame{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .main-header_infoGame {
+            display: none;
+        }
+}
+@media screen and (max-width: 576px) {
+    .tab-infoGame .tabs-about,
+    .main-header-tabContent {
+        font-size: 10px !important;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .tab-infoGame .tabs-about {
+        font-size: 8px;
+    }
+    .tab-infoGame .tabs-about .nav-link {
+        padding: 8px 0;
+    }
+}

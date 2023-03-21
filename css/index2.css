@@ -1,0 +1,337 @@
+.tab-play .activeChild {
+    color: #ffcc00 !important;
+}
+.fa-hidden {
+    color: transparent !important;
+}
+.element-search:hover {
+    color: #ffcc00 !important;
+    cursor: pointer !important;
+}
+.tab1sesion .nav {
+    justify-content: end !important;
+}
+.tab1sesion ul {
+    padding:10px 10px 0;
+    background: #171717;
+}
+.tab1sesion ul li a{
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+    width: 205px;
+    text-align: center;
+    background-color: #262626;
+    cursor: pointer;
+    padding: 5px 0;
+    border-bottom: 1px solid #fff !important;
+}
+.tab1sesion ul li:last-child {
+    margin-left: 10px;
+}
+
+.tab1sesion ul li .active,
+.tab1sesion ul li a:hover {
+    background-color: #ffcc00 !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+}
+.tab1sesion ul li .active:focus {
+    border-color: transparent;
+}
+.tab-content {
+    color: #fff !important;
+    font-size: 14px;
+}
+.contentTab-left-itemCoin,
+.content-tabs2,
+.contentTab-left-itemInfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.content-tabs2 {
+    padding-top: 20px;
+    gap: 15px;
+}
+.contentTab-left-itemCoin {
+    gap: 2px;
+}
+.contentTab-left-itemCoin  p {
+    font-size: 18px;
+}
+.contentTab-left-itemCoin  p:last-child {
+    font-size: 14px;
+}
+.totalCoin {
+    text-align: center;
+    padding: 10px 0;
+    background: #363636;
+}
+.totalCoin .material-icons {
+    font-size: 14px;
+    margin-right: 0;
+}
+.infoMatch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #262626;
+    padding: 20px 0;
+}
+.contentTab-left-itemInfo {
+    margin-top: 2px;
+}
+.infoMatchItem {
+    width: max-content;
+    padding:25px 15px;
+    border-radius: 10px;
+    background: #000;
+}
+.infoMatchItem i {
+    padding: 0 5px;
+    font-size: 20px;
+}
+.button-contentTab {
+    width: max-content ;
+    padding: 5px 10px;
+}
+.contentTab-left-itemInput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: #262626;
+    margin-top: 2px;
+}
+.contentTab-left-itemInput  input{
+    width: 70%;
+    background: #000;
+    border: none;
+    font-size: 18px;
+    color:#fff
+}
+
+.contentTab-left-itemInput  input::placeholder{
+    font-size: 10px;
+}
+.contentTab-left-itemTab{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin-top: 2px;
+    padding: 15px;
+    background: #262626;
+}
+.contentTab-left-itemTab button {
+    background: #606060;
+    color: #fff;
+    padding: 5px 0;
+}
+.contentTab-left-itemTab button:hover {
+    color: #000;
+    background: #ffcc00;
+}
+.contentTab-left-itemTab button .material-icons {
+    margin-right: 0;
+    font-size: 16px;
+}
+.contentTab-right{
+    padding: 20px;
+    background: #262626;
+    border-radius: 8px;
+}
+.contentTab-right p {
+    display: flex;
+    justify-content: start;
+    padding: 10px 0;
+}
+.contentTab-right p span {
+    padding-right: 5px;
+}
+.contentTab-right h2 {
+    font-size: 24px;
+}
+.gamePlay {
+    color: #fff;
+}
+tbody > tr > td,
+thead > tr > th {
+    padding: 10px 0;
+}
+
+.gamePlay {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px ;
+    background: #272727;
+}
+.gamePlay ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.gamePlay ul li i {
+    font-size: 20px;
+}
+
+.gamePlay ul li i:hover {
+    color:#ffcc00
+}
+
+.searchGame {
+    display: flex;
+    max-height: 30px;
+    /* width: 30%; */
+}
+
+.searchGame .search-box {
+  font-size: 14px;
+  padding: 0 19px;
+  border: 1px solid #C1C1C1;
+  background-color: white;
+  border-radius: 10px;
+  transition: .2s;
+  display: flex;
+  max-height: 30px;
+  background: #000;
+  margin-right:10px !important;
+
+}
+
+.searchGame .search-box:hover {
+  border-color: #AAAAAA;
+}
+
+.searchGame .search-box:focus-within {
+  border-color: #fff;
+  box-shadow: transparent;
+}
+
+.searchGame input {
+  letter-spacing: -0.2px;
+  border: none;
+  color: #fff;
+  background: #000;
+}
+.searchGame form {
+    background: #000;
+}
+
+.searchGame button:hover {
+  cursor: pointer;
+}
+
+.searchGame button {
+    font-size: 14px;
+}
+.searchGame .material-symbols-outlined {
+    color: #fff !important;
+}
+.searchGame input:focus {
+  outline: none;
+}
+
+.searchGame input[type='search']::-webkit-search-cancel-button {
+	-webkit-appearance: none;	
+}
+
+.clear:not(:valid) ~ .search-clear {
+	display: none;
+}
+
+.gamePlayground {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 6px;
+}
+.gamePlayground-card {
+    cursor: pointer;
+}
+.gamePlayground-card p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.gamePlayground-card:hover{
+    color:#ffcc00;
+}
+
+@media screen and (max-width: 1036px) {
+	.content-tabs2 {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .gamePlay ul {
+        width: 60%;
+    }
+    .searchGame input {
+        width: 100px !important;
+    }
+}
+
+
+@media screen and (max-width: 756px) {
+	.gamePlay{
+        display: block;
+    }
+    .gamePlay ul {
+        width: 100%;
+    }
+    .searchGame  {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .searchGame .search-box{
+        width: 85%;
+    }
+    .gamePlayground {
+    grid-template-columns: repeat(4,1fr);
+    gap: 6px;
+}
+#tabs-2 {
+    font-size: 10px;
+}
+.contentTab-left-itemCoin p {
+    font-size: 14px;
+}
+.contentTab-left-itemCoin p:last-child {
+    font-size: 10px;
+}
+}
+@media screen and (max-width: 576px) {
+	.contentTab-left-itemInput input{
+        width: 50%;
+    }
+     .gamePlay ul {
+        overflow: auto;
+    }
+    .gamePlay ul li{
+        padding: 0 10px;
+    }
+     .tab1sesion ul li a {
+        width: 110px;
+        font-size: 12px
+     }
+}
+
+@media screen and (max-width: 400px) {
+	.gamePlayground {
+    grid-template-columns: repeat(3,1fr);
+}
+.gamePlayground-card p {
+    font-size: 10px;
+}
+}
+
+@media (min-width: 992px){
+.tabs {
+    width: calc(100% - 150px);
+}}
+@media (min-width: 576px){
+.tabs section {
+    width: calc(100% - 150px);
+}
+.tabs>ul {
+    width: 200px;
+}
+}
