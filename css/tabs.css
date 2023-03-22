@@ -353,6 +353,7 @@ a img {
 }
 
 .tab-link .count,
+.tab-link2 .count,
 .checkBox .count {
 	background-color: #2e2d2f !important;
 	color: #fff;

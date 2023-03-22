@@ -9,13 +9,18 @@ body {
     align-items: center;
 }
 .colorPrimary {
-    color: #ffcc00;
+    color: #ffcc00 !important;
 }
 .color-blue {
     color:#0085ed !important;
 }
 .color-red {
     color: #f10000 !important;
+}
+
+.colorPrimaryBg {
+    color: #000;
+    background: #ffcc00 !important;
 }
 
 h1,

@@ -300,7 +300,7 @@ li>a:hover,
  text-align: start;
 
 }
-.itemMatchRightLI-infoDesc p span {
+.itemMatchRightLI-infoDesc p span , .fa-arrow-up{
     color: orangered;
     font-size: 11px;
     padding-right: 3px;
@@ -351,12 +351,25 @@ li>a:hover,
     .itemMatch-info .diflex {
         display: block;
     }
-  
+    .itemMatch-info6 {
+        display: flex;
+    align-items: center;
+    }
+  .tab1sesion ul li button{
+    font-size: 10px;
+  }
 }
 @media screen and (max-width:415px){
     .tab1sesion-content_button {
-        grid-template-columns: repeat(1 , 1fr);
+        grid-template-columns: repeat(3 , 1fr);
     }   
+    .tab1sesion-content_buttonItem p {
+        font-size: 8px !important;
+    }
+    .tab1sesion p,
+    .itemMatch-info li {
+        font-size: 10px;
+    }
     select {
         width: 70px;
     }
